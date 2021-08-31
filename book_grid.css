@@ -1,0 +1,47 @@
+.col_a{
+width: 55px;
+height: 85px;
+ background-color: aliceblue;
+float: left;
+    border-radius: 16px;
+}
+.col_b{
+    margin-left: 60px;
+    position: relative;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.im1{
+width: 55px;
+height: 85px;
+float: left;
+    border-radius: 16px;
+}
+
+.text{
+font-size: small;
+}
+
+.col-text{
+    margin-top: 40px;
+}
+
+
+@media(max-width:576px){
+
+.col-hidden{
+display: none;
+}
+
+.col-4{
+width: 70%;
+}
+
+/* .col-2{
+width: 30%;
+text-align: right;
+} */
+.list {
+padding: 0;
+}
+}
